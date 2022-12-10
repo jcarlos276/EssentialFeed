@@ -13,6 +13,7 @@
 		CF3BB44E2914A9E2008D07C9 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */; };
 		CF3BB44F2914A9E2008D07C9 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */; };
 		CFD69F692944560B005CDC66 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F682944560B005CDC66 /* FeedLoader.swift */; };
+		CFD69F6B2944577B005CDC66 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F682944560B005CDC66 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,8 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3BB4382914A98A008D07C9 /* EssentialFeed.h */,
-				CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */,
-				CFD69F682944560B005CDC66 /* FeedLoader.swift */,
+				CFD69F6A29445770005CDC66 /* FeedFeature */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -87,6 +87,15 @@
 				CF3BB4422914A98B008D07C9 /* EssentialFeedTests.swift */,
 			);
 			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		CFD69F6A29445770005CDC66 /* FeedFeature */ = {
+			isa = PBXGroup;
+			children = (
+				CFD69F682944560B005CDC66 /* FeedLoader.swift */,
+				CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */,
+			);
+			path = FeedFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD69F6B2944577B005CDC66 /* FeedLoader.swift in Sources */,
 				CF3BB44F2914A9E2008D07C9 /* FeedItem.swift in Sources */,
 				CF3BB4432914A98B008D07C9 /* EssentialFeedTests.swift in Sources */,
 			);
