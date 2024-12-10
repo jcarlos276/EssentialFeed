@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		CF3BB43E2914A98B008D07C9 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3BB4352914A98A008D07C9 /* EssentialFeed.framework */; };
 		CF3BB44E2914A9E2008D07C9 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */; };
-		CF3BB44F2914A9E2008D07C9 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BB44D2914A9E2008D07C9 /* FeedItem.swift */; };
 		CFD0C8A02D07B9EE0049AF69 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0C89F2D07B9EE0049AF69 /* HTTPClient.swift */; };
 		CFD69F692944560B005CDC66 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F682944560B005CDC66 /* FeedLoader.swift */; };
-		CFD69F6B2944577B005CDC66 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F682944560B005CDC66 /* FeedLoader.swift */; };
 		CFD69F6D29445B09005CDC66 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F6C29445B09005CDC66 /* RemoteFeedLoaderTests.swift */; };
 		CFD69F70294469DA005CDC66 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD69F6F294469DA005CDC66 /* RemoteFeedLoader.swift */; };
 /* End PBXBuildFile section */
@@ -230,8 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD69F6D29445B09005CDC66 /* RemoteFeedLoaderTests.swift in Sources */,
-				CFD69F6B2944577B005CDC66 /* FeedLoader.swift in Sources */,
-				CF3BB44F2914A9E2008D07C9 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
